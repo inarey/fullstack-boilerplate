@@ -1,5 +1,5 @@
 {
-  "name": "reactjscamp",
+  "name": "fullstack-boilerplate",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.11",
+    "i18next": "^25.3.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-i18next": "^15.6.0",
+    "remixicon": "^4.6.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
@@ -28,5 +30,17 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
     "vite": "^7.0.4"
-  }
+  },
+  "description": "A modern boilerplate built with Vite + React + Tailwind CSS, complete with multi-language support, currency switching, and responsive starter components.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inarey/fullstack-boilerplate.git"
+  },
+  "author": "shan-ti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inarey/fullstack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/inarey/fullstack-boilerplate#readme"
 }

@@ -1,11 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+import animatePlugin from 'tailwindcss-animate';
+
 export default {
   content: [
-  "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-  "./components/**/*.{js,ts,jsx,tsx,mdx}",
-  "./app/**/*.{js,ts,jsx,tsx,mdx}",
-  "./src/**/*.{js,ts,jsx,tsx,mdx}",
-],
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
   theme: {
     extend: {
       colors: {
@@ -67,7 +69,7 @@ export default {
         serif: ['Libre Baskerville', 'serif'],
       },
     },
-  },
-  plugins: ["tailwindcss-animate"],
-}
 
+  },
+  plugins: [animatePlugin],
+}

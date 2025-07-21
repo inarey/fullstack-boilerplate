@@ -1,14 +1,14 @@
-
+import Navbar from "./components/common/Navbar";
+import TopBanner from "./components/common/TopBanner";
 
 function App() {
-
   return (
     <>
-      <div className='bg-teal-950 h-dvh mx-auto text-center py-10'>
-        <h1 className="text-teal-50 text-6xl">FullStack Boilerplate</h1>
-      </div>
+      <TopBanner />
+      <Navbar />
+      <div className="flex flex-row bg-brand-50 mx-auto">Main content here</div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
