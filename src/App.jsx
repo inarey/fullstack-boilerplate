@@ -6,7 +6,7 @@ function App() {
     <>
       <TopBanner />
       <Navbar />
-      <div className="flex flex-row bg-brand-50 mx-auto">Main content here</div>
+      <container className="flex flex-row bg-brand-50 mx-auto"></container>
     </>
   );
 }

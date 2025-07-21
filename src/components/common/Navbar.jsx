@@ -6,7 +6,7 @@ const Navbar = () => {
       {/* Left: Logo + Nav Links */}
       <div className="flex flex-col px-16 md:flex-row items-center space-y-2 md:space-y-0 md:space-x-8 w-full md:w-auto">
         <h1 className="text-2xl font-bold text-brand-950">
-          Log'<span className="text-brand-500">o</span>
+          Log'<span className="text-brand-500">O</span>
         </h1>
 
         <ul className="flex space-x-4 text-brand-900 font-medium text-sm md:text-base">
